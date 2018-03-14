@@ -30,7 +30,7 @@ $.getScript('https://dl.dropboxusercontent.com/s/0sq7aosn30jjjo5/playlist_messag
 
 //--------- EXTERNAL CSS ---------
 $('head').append("<link rel='stylesheet' href='https://dl.dropboxusercontent.com/s/om2pvix7mgt44st/noty.css' />"); 
-$('head').append("<link rel='stylesheet' href='https://dl.dropboxusercontent.com/s/lax2mwidvp3azud/style.css' />"); 
+$('head').append("<link rel='stylesheet' href='https://raw.githubusercontent.com/juke/oc/master/style.css' />"); 
 $('head').append('<link id="favicon" rel="shortcut icon" type="image/png" sizes="64x64" href="https://i.imgur.com/HL80h5K.png">');
 
 //--------- FUNCTIONS ---------
