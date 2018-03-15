@@ -779,7 +779,7 @@ animation: queueactiveanim 4s ease infinite !important;
 
 #maincontain  { background: #131212; }
 
-#maincontain .nano-content { margin-right:0 !important; }
+#maincontain .nano-content { margin-right:0; }
 
 #search_clear {     background: #2d1613; }
 #library {    
