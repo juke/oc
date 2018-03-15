@@ -374,7 +374,7 @@ var observer = new MutationObserver(function(mutations) {
 	mutations.forEach(function(mutation) {
 		$("#chatwrap .nano").nanoScroller();
 		var tes = mutation['addedNodes'];
-		var shoutClass = mutation['addedNodes'][0]['children'][1];
+		/*var shoutClass = mutation['addedNodes'][0]['children'][1];
 		var shoutUser = mutation['addedNodes'][0]['children'][1];
 		var shoutMsg = mutation['addedNodes'][0]['children'][2];
 		
@@ -401,7 +401,7 @@ var observer = new MutationObserver(function(mutations) {
 		} else {
 			console.log('no');
 		}
-		
+		*/
 		if(mutation['addedNodes'][0]['classList'][0].replace(/^(\S*).*/, '$1') === mutation['previousSibling']['classList'][0].replace(/^(\S*).*/, '$1')) {
 			var classlol = mutation['addedNodes'][0]['className'];
 			$("." + classlol).eq(-1).attr('id', 'same');
