@@ -31,7 +31,7 @@ $.getScript('https://juke.github.io/oc/playlist_messages.js');
 //--------- EXTERNAL CSS ---------
 $('head').append("<link rel='stylesheet' href='https://juke.github.io/oc/noty.css' />"); 
 $('head').append("<link rel='stylesheet' href='https://juke.github.io/oc/style.css' />"); 
-$('head').append('<link id="favicon" rel="shortcut icon" type="image/png" sizes="64x64" href="https://kek.gg/i/3rCHS.png">');
+$('head').append('<link id="favicon" rel="shortcut icon" type="image/png" sizes="64x64" href="https://kek.gg/i/5JTQft.png">');
 
 //--------- FUNCTIONS ---------
 (function($) {
