@@ -24,8 +24,8 @@ handleWindowResize = undefined;
 $.getScript('https://use.fontawesome.com/b6c5a3a808.js');
 
 //--------- EXTERNAL SCRIPTS ---------
-$.getScript('https://juke.github.io/oc/master/noty.js');
-$.getScript('https://juke.github.io/oc/master/external_playlist.js');
+$.getScript('https://juke.github.io/oc/noty.js');
+$.getScript('https://juke.github.io/oc/external_playlist.js');
 $.getScript('https://juke.github.io/oc/playlist_messages.js');
 
 //--------- EXTERNAL CSS ---------
