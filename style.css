@@ -395,7 +395,7 @@ padding:0;
 	}
 	#mainpage > .nano {
 		position: fixed;
-		overflow-y: visible; /*scroll pre-nano*/
+		overflow-y: hidden; /*scroll pre-nano*/
 		overflow-x: hidden;
 		padding: 0 10px 0 9px !important;
 	}
