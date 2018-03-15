@@ -318,7 +318,7 @@ padding:0;
     display: none;
 }
 	#mainpage > .nano {
-		height: calc(100% - 22px);
+		height: calc(100% - 27px);
 	}
 @media (max-width: 991.9px){
 	#mainpage > .nano {
