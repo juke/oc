@@ -24,13 +24,13 @@ handleWindowResize = undefined;
 $.getScript('https://use.fontawesome.com/b6c5a3a808.js');
 
 //--------- EXTERNAL SCRIPTS ---------
-$.getScript('https://raw.githubusercontent.com/juke/oc/master/noty.js');
-$.getScript('https://raw.githubusercontent.com/juke/oc/master/external_playlist.js');
-$.getScript('https://raw.githubusercontent.com/juke/oc/master/playlist_messages.js');
+$.getScript('https://raw.githack.com/juke/oc/master/noty.js');
+$.getScript('https://raw.githack.com/juke/oc/master/external_playlist.js');
+$.getScript('https://raw.githack.com/juke/oc/master/playlist_messages.js');
 
 //--------- EXTERNAL CSS ---------
-$('head').append("<link rel='stylesheet' href='https://raw.githubusercontent.com/juke/oc/master/noty.css' />"); 
-$('head').append("<link rel='stylesheet' href='https://raw.githubusercontent.com/juke/oc/master/style.css' />"); 
+$('head').append("<link rel='stylesheet' href='https://raw.githack.com/juke/oc/master/noty.css' />"); 
+$('head').append("<link rel='stylesheet' href='https://raw.githack.com/juke/oc/master/style.css' />"); 
 $('head').append('<link id="favicon" rel="shortcut icon" type="image/png" sizes="64x64" href="https://kek.gg/i/3rCHS.png">');
 
 //--------- FUNCTIONS ---------
