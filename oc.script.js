@@ -24,14 +24,14 @@ handleWindowResize = undefined;
 $.getScript('https://use.fontawesome.com/b6c5a3a808.js');
 
 //--------- EXTERNAL SCRIPTS ---------
-$.getScript('https://dl.dropboxusercontent.com/s/ee11c6dyghxdal8/noty.js');
-$.getScript('https://dl.dropboxusercontent.com/s/jsmdur4nth9nlwa/external_playlist.js');
-$.getScript('https://dl.dropboxusercontent.com/s/0sq7aosn30jjjo5/playlist_messages.js');
+$.getScript('https://raw.githubusercontent.com/juke/oc/master/noty.js');
+$.getScript('https://raw.githubusercontent.com/juke/oc/master/external_playlist.js');
+$.getScript('https://raw.githubusercontent.com/juke/oc/master/playlist_messages.js');
 
 //--------- EXTERNAL CSS ---------
-$('head').append("<link rel='stylesheet' href='https://dl.dropboxusercontent.com/s/om2pvix7mgt44st/noty.css' />"); 
-$('head').append("<link rel='stylesheet' href='https://dl.dropboxusercontent.com/s/lax2mwidvp3azud/style.css' />"); 
-$('head').append('<link id="favicon" rel="shortcut icon" type="image/png" sizes="64x64" href="https://i.imgur.com/HL80h5K.png">');
+$('head').append("<link rel='stylesheet' href='https://raw.githubusercontent.com/juke/oc/master/noty.css' />"); 
+$('head').append("<link rel='stylesheet' href='https://raw.githubusercontent.com/juke/oc/master/style.css' />"); 
+$('head').append('<link id="favicon" rel="shortcut icon" type="image/png" sizes="64x64" href="https://kek.gg/i/3rCHS.png">');
 
 //--------- FUNCTIONS ---------
 (function($) {
