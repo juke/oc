@@ -263,12 +263,14 @@ var scrolledDown = 0;
 		$('#return-to-top').stop(true,true).animate({opacity: 1}, 0);
 		
 		}
-		 if(vals.position > 300) {
+		 if(vals.position > 200) {
+			  $('#footer').stop(true,true).animate({opacity: 1}, 400);
 			$('#footer').show();
-		        $('#footer').stop(true,true).animate({opacity: 1}, 0);
+		       
 		 } else { 
+			  $('#footer').stop(true,true).animate({opacity: 0}, 0);
 			 $('#footer').hide();
-		        $('#footer').stop(true,true).animate({opacity: 0}, 0);
+		       
 		 }
     });
 
