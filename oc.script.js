@@ -256,7 +256,6 @@ var scrolledDown = 0;
 		$('#rightcontrols .btn-group').stop(true,true).animate({opacity: 0.4}, 400);
 		$('#return-to-top').stop(true,true).animate({opacity: 0}, 0);
 		$('#return-to-top').hide();
-
 		} else {
 			scrolledDown = 1;
 		$('#rightcontrols .btn-group').stop(true,true).animate({opacity: 1}, 400);	
@@ -264,6 +263,13 @@ var scrolledDown = 0;
 		$('#return-to-top').stop(true,true).animate({opacity: 1}, 0);
 		
 		}
+		 if(vals.position > 300) {
+			$('#footer').show();
+		        $('#footer').stop(true,true).animate({opacity: 1}, 0);
+		 } else { 
+			 $('#footer').hide();
+		        $('#footer').stop(true,true).animate({opacity: 0}, 0);
+		 }
     });
 
 //Dim when hovering over navbar and footer
