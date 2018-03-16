@@ -92,8 +92,8 @@ $( ".plcontrol-collapse" ).wrapInner( "<div class='plcontrol-inner'></div>");
 $("#videowrap").removeClass("col-lg-7 col-md-7");
 $("#chatwrap").removeClass("col-lg-5 col-md-5");
 $("#videowrap").addClass("col-lg-12 col-md-12");
-$("#chatwrap").addClass("col-lg-10 col-md-10");
-$("#footer").addClass("col-lg-2 col-md-2");
+$("#chatwrap").addClass("col-lg-2 col-md-2");
+$("#footer").addClass("col-lg-10 col-md-10");
 $("#mainpage").prepend($("#chatwrap"));
 $("#main").append($("#videowrap"));
 
