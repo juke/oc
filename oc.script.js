@@ -264,11 +264,11 @@ var scrolledDown = 0;
 		
 		}
 		 if(vals.position > 200) {
-			  $('#footer').stop(true,true).animate({opacity: 1}, 400);
+			  $( "#footer" ).slideUp(400);
 			$('#footer').show();
 		       
 		 } else { 
-			  $('#footer').stop(true,true).animate({opacity: 0}, 0);
+			   $( "#footer" ).slideDown(400);
 			 $('#footer').hide();
 		       
 		 }
